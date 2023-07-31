@@ -1,6 +1,6 @@
 ---
  - name: Playbook to install apt packages
-   hosts: peyman
+   hosts: all
    become: true
    tasks: 
     - name: Ansible apt install your package

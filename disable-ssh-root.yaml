@@ -1,6 +1,6 @@
 ---
   - name: Disable root ssh login
-    hosts: peyman
+    hosts: all
     tasks:
 
     - name: /etc/ssh/sshd_config

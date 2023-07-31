@@ -1,6 +1,6 @@
 ---
   - name: Change SSH port
-    hosts: peyman
+    hosts: all
     tasks:
 
     - name: Setup alternate SSH port

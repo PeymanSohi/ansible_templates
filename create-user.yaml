@@ -1,5 +1,5 @@
 ---
-- hosts: peyman
+- hosts: al
   become: true
   tasks:
   - name: Creating the User
