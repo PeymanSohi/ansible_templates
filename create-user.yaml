@@ -1,5 +1,5 @@
 ---
-- hosts: al
+- hosts: all
   become: true
   tasks:
   - name: Creating the User
