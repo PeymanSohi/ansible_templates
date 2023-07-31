@@ -1,0 +1,6 @@
+---
+- hosts: peyman
+  become: true
+  tasks:
+  - name: Creating the User
+    user: name=test password=123 groups=sudo shell=/bin/bash #if linux os is rhel based changr group with wheel

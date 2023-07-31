@@ -1,0 +1,6 @@
+---
+- hosts: 
+  become: true
+  tasks:
+  - name: Removing the User
+    user: name=username state=absent remove=yes force=yes
