@@ -18,3 +18,4 @@
     #   register: apt
       
     - debug: msg="{{displaylist.stdout_lines}}"
+    - debug: msg="{{lsout.stdout_lines}}"
